@@ -135,13 +135,17 @@ header{
     background-attachment: fixed;
 }
 
-.hero-text-box{
+.hero-text-box {
     position: absolute;
     width: 1140px;
-    top:78%;
-    left:60%;
-    transform:translate(-50%, -50%);
+    top: 70%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
+
 
 .hero-text-box h1{
     margin: 0;
